@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - "main"
+    paths-igore:
+      # изменения в '.github/workflows/*' будут проигнорированы при push
+      - ".github/workflows/*"
 jobs:
   deploy:
     runs-on: ubuntu-latest
