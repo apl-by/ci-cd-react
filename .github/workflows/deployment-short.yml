@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - "main"
-    paths-igore:
+    paths-ignore:
       # изменения в '.github/workflows/*' будут проигнорированы при push
       - ".github/workflows/*"
 jobs:
